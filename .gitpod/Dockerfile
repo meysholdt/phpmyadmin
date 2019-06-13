@@ -1,4 +1,4 @@
-FROM phpmyadmin/phpmyadmin
+FROM phpmyadmin/phpmyadmin:fpm-alpine
 
 # install MariaDB and developer tools
 RUN apk add --no-cache mariadb mariadb-client bash git composer yarn
